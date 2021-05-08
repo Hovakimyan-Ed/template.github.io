@@ -51,13 +51,13 @@ let three = 1;
 
 function o3() {
     if (three === 1) {
-        document.getElementById("id6").style="right: 41%; transition: 0.3s"
+        document.getElementById("id6").style="left: 0; transition: 0.3s"
         document.getElementById("bd1_id").style="transform: rotate(-40deg); width: 14px; position: absolute; top: -4px; left: -1px;";
         document.getElementById("bd3_id").style="width: 14px; transform: rotate(40deg); position: absolute; top: 4px; left: -1px;";
         three = 2;
     }
     else if (three === 2) {
-        document.getElementById("id6").style="right: 100%; transition: 0.3s"
+        document.getElementById("id6").style="left: -100%; transition: 0.3s"
         document.getElementById("bd1_id").style="transform: rotate(0deg); width: 24px;";
         document.getElementById("bd3_id").style="width: 24px; transform: rotate(0deg);";
         three = 1;
