@@ -644,7 +644,7 @@ a {
         border-left: 1px solid #e9e9e8;
         border-right: 1px solid #e9e9e8;
         height: 100vh;
-        right: 100%;
+        left: -100%;
         display: block;
     }
 
